@@ -39,6 +39,10 @@ docker compose run --rm web rake mastodon:setup
 docker compose up -d
 ```
 
+## Login
+
+Go to https://web.docker.localhost
+
 ## Create a user
 
 1. Log in to the API server

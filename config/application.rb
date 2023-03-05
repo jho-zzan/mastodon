@@ -192,5 +192,8 @@ module Mastodon
       Devise::FailureApp.send :include, AbstractController::Callbacks
       Devise::FailureApp.send :include, Localized
     end
+
+    # Allow running locally with docker
+    config.hosts << /[a-z0-9]+\.docker\.localhost/
   end
 end

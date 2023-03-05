@@ -4,6 +4,7 @@
 
 - Docker
 - `mkcert`
+- clone `https://github.com/jho-zzan/mastodon.git`
 
 ## Steps
 
